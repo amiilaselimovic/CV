@@ -1,0 +1,47 @@
+:root {
+  /*  PRIMARY BRAND COLORS  */
+  --color-primary: #323067;
+  --color-primary-light: #91a3b0;
+
+  /*  BACKGROUND COLORS */
+  --bg-main: #0a0a0a;
+  --bg-header: #080808;
+  --bg-section: #111827;
+  --bg-card: #14181a;
+  --bg: rgba(0, 0, 0, 0.7);
+
+  /* TEXT COLORS  */
+  --text-main: #e5e7eb;
+  --text-hero: #e5e7eb;
+  --text-hero-muted: #abb0b9;
+  --text-muted: #abb0b9;
+  --text-heading: #ffffff;
+
+  /*  BORDERS / LINES */
+  --border-light: #374151;
+
+  /*  BUTTON COLORS */
+  --btn-bg: var(--color-primary);
+  --btn-text: #ffffff;
+
+  /* CARD SHADOW */
+  --shadow-soft: 2px 4px 4px 1.5px rgba(26, 28, 30, 0.5);
+  --shadow-on-hover: rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme="light"] {
+  --bg-main: #e5e4e2;
+  --bg-card: #f7f7f7;
+  --text-main: #000000;
+  --text-muted: #111111;
+  --text-hero-muted: #f7f7f7;
+  --border-light: #808080;
+
+  --color-primary: #91a3b0;
+  --color-primary-light: #969aa3;
+
+  --btn-bg: var(--color-primary);
+  --btn-text: #ffffff;
+
+  --shadow-soft: 0 6px 15px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="bs">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amila Selimović</title>
+  <link rel="icon" type="image/svg" href="styles/images/person-cv.svg" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <!-- THEME TOGGLE  -->
+  <button id="theme-toggle" class="theme-btn">
+    <i class="fa-solid fa-sun"></i>
+  </button>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+      <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+
+        <ul class="menu">
+          <li><a href="#home" class="active">Početna</a></li>
+          <li><a href="#about">O meni</a></li>
+          <li><a href="#projects">Projekti</a></li>
+          <li><a href="#gallery">Galerija</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero animate-fade-in">
+    <div class="overlay"></div>
+    <div class="hero-text container animate-slide-up">
+      <h1>Zdravo, ja sam Amila Selimović.</h1>
+      <p>Studentica Kompjuterskih nauka na PMF-u i Web dizajner početnik.</p>
+      <a href="#about" class="btn">Saznaj više</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container animate-fade-in">
+    <div class="about-grid">
+      <div class="about-card">
+
+        <h2>O meni</h2>
+
+        <p>Zovem se Amila Selimović i studentica sam na Prirodno-matematckom fakultetu, smjer Kompjuterske nauke.
+          Ja sam motivisana i kreativna osoba sa interesovanjem za softverski razvoj, web dizajn i robotiku. Tokom
+          obrazovanja i praktičnih projekata razvila sam vještine u HTML, CSS i JavaScript, s fokusom na responzivni
+          dizajn, interaktivnost i vizualnu privlačnost web stranica. Učestvovala sam u timskoj izradi projekata, što mi
+          je omogućilo razvijanje efikasne komunikacije, saradnje i rješavanja problema u grupnom okruženju.
+        </p>
+
+        <p>Pored web razvoja, bavim se i Arduino kontrolerima i robotikom, gdje sam učestvovala u projektima
+          automatizacije i izrade funkcionalnih uređaja, čime sam dodatno razvila praktične vještine u elektronici,
+          programiranju mikrokontrolera i integraciji hardvera i softvera. Kontinuirano se trudim proširivati znanje u
+          modernim web tehnologijama, robotici i inovativnim tehnološkim rješenjima, s ciljem stvaranja funkcionalnih i
+          estetski privlačnih rješenja u različitim oblastima tehnologije.
+        </p>
+      </div>
+
+      <div class="about-card-picture">
+        <img src="styles/images/about01.jpg" alt="Amila Selimović" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container animate-fade-in">
+    <h1>Vještine</h1>
+    <div class="skills-grid">
+      <div class="skill-card animate-pop">
+        <h3>C</h3>
+        <div class="bar"><span style="--w:45%"></span></div>
+      </div>
+      <div class="skill-card animate-pop">
+        <h3>C++</h3>
+        <div class="bar"><span style="--w:50%"></span></div>
+      </div>
+      <div class="skill-card animate-pop">
+        <h3>HTML/CSS</h3>
+        <div class="bar"><span style="--w:85%"></span></div>
+      </div>
+      <div class="skill-card animate-pop">
+        <h3>JavaScript</h3>
+        <div class="bar"><span style="--w:60%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container animate-fade-in">
+    <h1>Projekti</h1>
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 -->
+      <article class="card animate-up project-card">
+        <div class="project-main">
+          <div class="project-text">
+            <h3>ARDUINO Remote Control Smart House</h3>
+            <p>
+              Remote Control Smart House & Garden je projekat IT Girls Club JU Gimnazija
+              “dr. Mustafa Kamarić” Gračanica koji je imao za cilj osmišljavanje modela koji bi omogućio
+              korisnicima udobniji i korisniji svakodnevni život uz maksimalnu uštedu
+              električne energije. S obzirom na ciljeve, ovaj projekat je podijeljen u četiri cjeline
+              1. LCD Observation - omogućava nadzor na četiri parametra, temperaturu i vlažnost prostorije, vlažnost tla
+              i procenta napunjenosti baterija za napajanje rasvjetnih tijela
+              2. Solar Energy - projekat koji koristi sunčevu svjetlost za proizvodnju električne energije koja će se
+              koristiti za napajanje rasvjetnih tijela, ventilatora i malih potrošača
+              3. Smart Garden - projekat koji omogućava održavanje biljaka i zelene površine unutar stambenog prostora
+              (zimske bašte, plastenik, terase, krovovi zgrada i sl.)
+              4. Remote Control Smart House - projekat koji omoguava daljinsko upravljanje rasvjetnim tijelima i
+              ventilacijom u stambenom prostoru
+
+            </p>
+          </div>
+
+          <div class="project-main-img">
+            <img src="styles/images/project01.png" alt="Poster projekta pametne kuće s daljinskim upravljanjem">
+          </div>
+        </div>
+
+        <!-- HIDDEN PART-->
+        <details class="project-details">
+          <summary>Prikaži više slika</summary>
+
+          <div class="project-gallery">
+            <img src="styles/images/project01.1.png" alt="Infografika LCD Observation sistema koja prikazuje uređaj sa senzorima za temperaturu, vlažnost zraka i vlažnost tla.">
+            <img src="styles/images/project01.2.png" alt="Shema spajanja LCD Observation sistema na Arduino Uno s LCD ekranom i senzorom vlage tla.">
+            <img src="styles/images/project01.3.png" alt="3D model objekta koji prikazuje položaj solarnih panela, sistema za konverziju napona i baterija od 12V.">
+            <img src="styles/images/project01.4.png" alt="Tehnička shema solarnog sistema s panelom, punjačem, baterijama i modulom za povišenje napona.">
+            <img src="styles/images/project01.5.png" alt="3D vizualizacija sustava Smart Garden s prikazom ventilatora, pumpe za vodu i senzora vlažnosti.">
+            <img src="styles/images/project01.6.png" alt="Elektronička shema Arduina s IR prijemnikom i daljinskim upravljačem za kontrolu vrta.">
+            <img src="styles/images/project01.7.png" alt="3D model unutrašnjosti pametne kuće s označenim senzorima vlažnosti zraka i ventilacijskim sustavom.">
+            <img src="styles/images/project01.8.png" alt="Shema spajanja releja i senzora na Arduino za daljinsko upravljanje kućanskim uređajima.">
+          </div>
+        </details>
+      </article>
+
+      <!-- PROJECT 2 -->
+      <article class="card animate-up">
+        <h3>IT Girls</h3>
+        <p>Učestvovanje u snimanju Arduino video tutorijala.</p>
+        <div class="project-main">
+          <iframe src="https://www.youtube.com/embed/c3lzoezfyxs?si=JKlwwVVS4wwB3dQr" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/pc3IVSPtQhs?si=6-goU0ZWrrTHCAYa" allowfullscreen></iframe>
+        </div>
+
+        <details class="project-details">
+          <summary>Pročitaj više</summary>
+          <p>IT Girls je projekat koji želi ohrabriti djevojke da počnu razmišljati o obrazovanju i eventualnoj karijeri
+            u svijetu informacionih tehnologija, od malih nogu. Počeo je kao inicijativa mladih zaposlenika Ujedinjenih
+            nacija u Bosni i Hercegovini, gdje je ova ideja i tema proglašena najboljom u okviru "Under30 Innovation
+            Challenge".
+            Osnovna ideja inicijative IT Girls leži u sveobuhvatnoj posvećenosti učešću žena i djevojaka na tržištu rada
+            i njihovom ravnopravnom učešću u svim karijernim pravcima navedenim u okvirima za zaštitu i promociju
+            ženskih prava i nacionalnim politikama i zakonodavstvu u Bosni i Hercegovini (BIH).
+            Projekat IT Girls premošćuje ovaj jaz adresirajući činjenicu da žene i djevojke ostaju nevidljive u sektoru
+            informacionih i komunikacionih tehnologija (IKT).
+            Iako je jedna od najplaćenijih grupa zanimanja u BIH, s mogućnošću brzog rasta, IKT sektor je u velikoj
+            mjeri muški. Stoga IT Girls ima veliki potencijal za ohrabrivanje djevojaka da se bave IKT-om i počnu
+            razvijati svoje vještine od malih nogu.
+          </p>
+        </details>
+      </article>
+
+      <!-- PROJECT 3 -->
+      <article class="card animate-up">
+        <h3>Front-end razvoj web stranice za online prodaju</h3>
+        <div class="project-main">
+          <div class="project-main-img">
+            <p>Učestvovala sam u timskoj izradi responzivne web aplikacije koristeći HTML, CSS i JavaScript,
+              fokusirajući se na čistu strukturu, moderni dizajn i interaktivne funkcionalnosti. Implementirala sam
+              validaciju korisničkih unosa, interaktivne elemente i prilagodljiv prikaz za različite uređaje,
+              osiguravajući kvalitetno korisničko iskustvo.</p>
+            <a href=" https://amiilaselimovic.github.io/CandyShop/" class="btn" target="_blank"
+              rel="noopener noreferrer">Pogledaj stranicu</a>
+          </div>
+          <div class="project-main-img"><img src="styles/images/project03.png" alt="Home page web stranice."/> </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section container animate-fade-in">
+    <h1>Galerija</h1>
+    <div class="gallery-grid">
+      <img src="styles/images/img1.jpg" alt="Grupa biciklista."/>
+      <img src="styles/images/img2.jpg" alt="Grupa biciklista."/>
+      <img src="styles/images/img3.jpg" alt="Grupa biciklista."/>
+      <img src="styles/images/img4.jpg" alt="Goransko jezero."/>
+      <img src="styles/images/img5.jpg" alt="Rijeka Prenja."/>
+      <img src="styles/images/img6.jpg" alt="Goransko jezero."/>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <p> &copy; 2025 Amila Selimović</p>
+    </div>
+
+
+    <div class="footer-right">
+      <p>Follow me</p>
+      <a href="https://github.com/amiilaselimovic" class="social-link" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-github"></i></a>
+      <a href="https://ba.linkedin.com/" class="social-link" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
